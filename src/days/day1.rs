@@ -5,6 +5,7 @@ use std::cmp::Reverse;
 
 fn main() {
     let input_file = "data/day1.data";
+    
     println!("Input at {}", input_file);
 
     let contents = fs::read_to_string(input_file).expect("Should be able to read file");
